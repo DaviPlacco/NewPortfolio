@@ -160,12 +160,10 @@ body{
 }
 
 .btn-contact:hover{
-    background-color: white;
-    color: black;
+    background-color: rgba(255, 255, 255, 0.233);
+    color: rgb(255, 255, 255);
 }
-.btn-contact:hover a{
-    color: rgb(0, 0, 0);
-}
+
 
 
 .btn-contact a{
@@ -193,5 +191,11 @@ body{
     display: flex;
     position: absolute;
     bottom: 50px;
+    gap: 38px;
+    z-index: 5;
+}
+
+svg{
+    color: white;
 }
 
