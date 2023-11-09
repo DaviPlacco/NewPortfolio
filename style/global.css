@@ -156,6 +156,20 @@ body{
     border: 1px solid #1850E1;
     background: rgba(255, 255, 255, 0.05);
     backdrop-filter: blur(5px); 
+    transition: 400ms ease-in-out;
+}
+
+.btn-contact:hover{
+    background-color: white;
+    color: black;
+}
+.btn-contact:hover a{
+    color: rgb(0, 0, 0);
+}
+
+
+.btn-contact a{
+    text-decoration: none;
     color: var(--btn-color-text);
     font-family: var(--title-btn-family);
     font-size: var(--btn-text-size);
