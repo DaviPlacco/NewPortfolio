@@ -1,0 +1,15 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+:root{
+    --title-h1: 'Rubik', sans-serif;
+    --title-h2: 'Rubik', sans-serif;
+    --title-h3: 'Rubik', sans-serif;
+    --title-p: 'Rubik', sans-serif;
+
+
+
+}
