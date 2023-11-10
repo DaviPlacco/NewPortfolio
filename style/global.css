@@ -25,8 +25,6 @@
     --title-h3-weight: 300;
     --text-weight: 300;
     --btn-color-text: white;
-
-
 }
 
 body{
@@ -174,7 +172,6 @@ body{
     align-items: center;
     gap: 10px;
     flex-shrink: 0;
-
     border-radius: 8px;
     border: 1px solid #1850E1;
     background: rgba(255, 255, 255, 0.05);
@@ -205,8 +202,6 @@ body{
     background-color: rgba(255, 255, 255, 0.233);
     color: rgb(255, 255, 255);
 }
-
-
 
 .btn-contact a{
     text-decoration: none;
@@ -241,7 +236,7 @@ body{
     animation: come 7800ms ease-in;
 }
 
-/* Media query */
+/* Media query mobile */
 
 @media (max-width: 680px){
     body{
@@ -253,13 +248,9 @@ body{
         justify-content: center;
         align-items: center;
     }
-
     #title-h1{
         font-size: 3rem;
     }
-
-
-
     .balls{
         display: none;
     }
