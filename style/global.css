@@ -70,14 +70,14 @@ body{
     margin-left: 1100px;
     margin-top: -150px;
     transform: translateX(100px);
-
+    animation: fadeone 14500ms ease-in-out infinite;
 }
 .ball-three{
     transform: translateY(-180px);
     margin-left: 600px;
     display: flex;
     z-index: 1;
-
+    animation: fadeone 18500ms ease-in-out infinite;
 }
 
 /* Effects */
@@ -116,6 +116,27 @@ body{
     color: var(--title-h1-color);
     font-weight: var(--title-h1-weight);
     margin-bottom: 1rem;
+    animation: apear 6000ms linear;
+}
+
+/* Effects */
+
+@keyframes apear{
+    0%{
+        opacity: 0;
+        filter: blur(5px);
+       
+    }
+    50%{
+        opacity: 0.5;
+        filter: blur(2px);
+        
+    }
+    100%{
+        opacity: 1;
+        filter: blur(0px);
+       
+    }
 }
 
 #title-h2{
@@ -127,6 +148,7 @@ body{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     margin: 0.5rem 0rem;
+    animation: apear 6200ms linear;
 }
 
 /* HOW TO DO A DEGRADE TEXT: https://blog.cisne.dev/texto-com-degrade-em-css-igual-a-esse-titulo/  */
@@ -140,6 +162,7 @@ body{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     margin-bottom: 3rem;
+    animation: apear 6400ms linear;
 }
 
 .btn-contact{
@@ -157,6 +180,25 @@ body{
     background: rgba(255, 255, 255, 0.05);
     backdrop-filter: blur(5px); 
     transition: 400ms ease-in-out;
+    animation: come 7000ms linear;
+}
+
+@keyframes come{
+    0%{
+        opacity: 0;
+        filter: blur(5px);
+       
+    }
+    50%{
+        opacity: 0.5;
+        filter: blur(2px);
+        
+    }
+    100%{
+        opacity: 1;
+        filter: blur(0px);
+       
+    }
 }
 
 .btn-contact:hover{
@@ -185,6 +227,8 @@ body{
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    transition: 400ms ease-in-out;
+    animation: come 7500ms linear;
 }
 
 .social-media{
@@ -193,9 +237,7 @@ body{
     bottom: 50px;
     gap: 38px;
     z-index: 5;
-}
-
-svg{
-    color: white;
+    transition: 400ms ease-in-out;
+    animation: come 7800ms ease-in;
 }
 
