@@ -197,9 +197,18 @@ body{
 .btn-contact:hover{
     background-color: rgba(255, 255, 255, 0.233);
     color: rgb(255, 255, 255);
+    cursor: pointer;
 }
 
-.btn-contact a{
+/* .link-contact{
+    text-decoration: none;
+    color: var(--btn-color-text);
+    font-family: var(--title-btn-family);
+    font-size: var(--btn-text-size);
+    font-weight: 300;
+} */
+
+.btn-contact{
     text-decoration: none;
     color: var(--btn-color-text);
     font-family: var(--title-btn-family);
